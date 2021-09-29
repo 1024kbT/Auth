@@ -4,11 +4,13 @@
  * @Autor: lwq
  * @Date: 2021-09-28 11:29:15
  * @LastEditors: Seven
- * @LastEditTime: 2021-09-28 17:01:20
+ * @LastEditTime: 2021-09-29 16:13:07
 -->
 <template>
    <div class="page-board">
-
+    <button v-has="'add'">添加</button>
+    <button v-has="'edit'"> 修改</button>
+    <button v-has="'delete'">删除</button>
   <router-view/>
 </div>
 </template>
@@ -19,6 +21,17 @@ export default {
    data () {
        return {}
    },
+  directives:{
+    has:{
+      inserted(el,binding,vnode) {
+      // el.focus()
+      
+      let permisionValue = binding.value
+      let flag = vnode.context.$store.state.buttonPermison[permisionValue]
+      !flag && el.remove()
+    }
+    }
+  },
   components: {}
 }
 </script>

@@ -4,7 +4,7 @@
  * @Autor: lwq
  * @Date: 2021-09-29 10:14:47
  * @LastEditors: Seven
- * @LastEditTime: 2021-09-29 10:52:28
+ * @LastEditTime: 2021-09-29 15:51:19
 -->
 <template>
   <div>
@@ -15,10 +15,10 @@
         <MenuItem :key='i'  :item='c'/>
       </template>
       </li>
-      
     </ul>
     <ul v-else> 
-    <router-link :to="item.link ||item.path">{{item.title}}</router-link></ul>
+    <router-link :to="item.link ||item.path">{{item.title}}</router-link>
+    </ul>
   </div>
 </template>
 
