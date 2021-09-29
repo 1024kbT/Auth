@@ -4,10 +4,10 @@
  * @Autor: lwq
  * @Date: 2021-09-28 16:54:18
  * @LastEditors: Seven
- * @LastEditTime: 2021-09-28 16:54:18
+ * @LastEditTime: 2021-09-29 09:57:21
 -->
 <template>
-   <div><h1>添加学生</h1></div>
+   <div><h2>添加学生</h2></div>
 </template>
 
 <script>

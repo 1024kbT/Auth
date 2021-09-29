@@ -7,7 +7,7 @@
  * @LastEditTime: 2021-09-28 16:51:11
 -->
 <template>
-   <div><h1>课程添加</h1></div>
+   <div><h2>课程添加</h2></div>
 </template>
 
 <script>

@@ -4,7 +4,7 @@
  * @Autor: lwq
  * @Date: 2021-09-28 13:23:36
  * @LastEditors: Seven
- * @LastEditTime: 2021-09-28 20:30:47
+ * @LastEditTime: 2021-09-29 11:02:49
  */
 module.exports = [
   {
@@ -28,7 +28,7 @@ module.exports = [
     pid: 3,
     path: 'info-data',
     name: 'CoursesInfodata',
-    link: '/course/operator/info_data',
+    link: '/course/operator/info-data',
     title: '课程数据',
   },
   {
