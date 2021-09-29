@@ -4,7 +4,7 @@
  * @Autor: lwq
  * @Date: 2021-09-28 11:29:15
  * @LastEditors: Seven
- * @LastEditTime: 2021-09-29 16:13:07
+ * @LastEditTime: 2021-09-29 16:33:54
 -->
 <template>
    <div class="page-board">
@@ -25,7 +25,6 @@ export default {
     has:{
       inserted(el,binding,vnode) {
       // el.focus()
-      
       let permisionValue = binding.value
       let flag = vnode.context.$store.state.buttonPermison[permisionValue]
       !flag && el.remove()
